@@ -1,28 +1,17 @@
 
 "# ML-model-RandomForestRegressor" 
 =======
-# House Price Prediction ML
+# House Price Prediction using Random Forest
 
-This project explores a machine learning pipeline for predicting house prices using the Bangalore House Price dataset.
+This project builds a machine learning model to predict house prices
+using the Bangalore Housing dataset.
 
-## Steps Implemented
-- Data loading using pandas
-- Dataset inspection
-- Handling missing values
-- Feature engineering (extracting BHK from size column)
-- Cleaning `total_sqft` column
-- Preparing data for machine learning
+Pipeline:
+- Data preprocessing
+- Feature engineering (BHK extraction)
+- Train-test split
+- Random Forest Regressor training
+- Price prediction
 
-## Tech Stack
-- Python
-- Pandas
-- Google Colab
-- Git & GitHub
-
-## Dataset
-Bangalore House Price Prediction Dataset (Kaggle)
-
-## Next Steps
-- Train ML models
-- Evaluate predictions
-- Build an API for predictions
+Technologies:
+Python, Pandas, Scikit-learn
